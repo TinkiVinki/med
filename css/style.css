@@ -1,0 +1,225 @@
+@font-face {
+    font-family: "Coworking";
+    src: url(../fonts/Coworking.otf) format("opentype");
+}
+@font-face {
+    font-family: "MyriadPro-Regular";
+    src: url(../fonts/MyriadPro-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "CenturyGothic";
+    src: url(/fonts/CenturyGothic.ttf) format("truetype");
+}
+@font-face {
+    font-family: "CenturyGothic-bold";
+    src: url(/fonts/CenturyGothic-Bold.ttf) format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.medicon__sloy {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.medicon {
+    font-family: "Coworking", sans-serif;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    color: #0d2a3d;
+}
+.npp {
+    font-family: "CenturyGothic", sans-serif;
+    margin-top: 0px;
+    margin-left: 13%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    color: #0d2a3d;
+}
+
+
+.shapka__pole {
+    height: 40px;
+    margin: 12px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/shapka.png);
+    /* border: 1px solid red; */
+}
+
+.menu {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.menu__item a {
+    font-family: "CenturyGothic", sans-serif;
+    margin: 55px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+}
+
+.logo {
+    margin: 30px;
+}
+
+
+.space {
+    width: 1264px;
+    height: 442px;
+    margin: 50px auto;
+    background-image: url(/img/space.png);
+    /* border: 1px solid red; */
+}
+
+.text__space a {
+    text-decoration: none;
+    font-family: "CenturyGothic", sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    color: #0d2a3d;
+}
+
+.text__space {
+    padding: 50px;
+}
+
+.text__space p {
+    font-family: "CenturyGothic", sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400px;
+    letter-spacing: -0.03em;
+    color: #0d2a3d;
+    text-align: justify;
+}
+
+.text__space h1 {
+    font-family: "CenturyGothic", sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700px;
+    letter-spacing: -0.03em;
+    color: #0d2a3d;
+
+}
+
+.giroskop__pole {
+    width: 1264px;
+    margin: 20px auto;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.giroskop a {
+    font-family: "CenturyGothic", sans-serif;
+    font-size: 35px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    color: #0d2a3d;
+    text-decoration: none;
+}
+
+.girosop__pole__foto {
+    width: 1128px;
+    height: 456px;
+    margin: 20px auto;
+    background-image: url(/img/giroskopiya.png);
+}
+
+.giroskop__pole_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.giroscop__text{
+    margin: 40px;
+    padding: 20px;
+    width: 1128px;
+    height: 456px;
+}
+
+
+.giroscop__text a {
+    text-decoration: none;
+    font-family: "CenturyGothic", sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+}
+
+.giroscop__text p {
+    font-family: "CenturyGothic", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.oborudovanie__foto {
+    width: 1264px;
+    height: 442px;
+    margin: 50px auto;
+    background-image: url(/img/oborudovanie.png);
+}
+
+.med__obor{
+    width: 1264px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.med__obor a {
+    text-align: center;
+    width: 850px;
+    text-decoration: none;
+    font-family: "CenturyGothic", sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    color: #0d2a3d;
+}
+
+
+
+
+
+
+
+
+
